@@ -1,0 +1,22 @@
+[package]
+name = "rustctl"
+version = "0.1.0"
+edition = "2021"
+description = "A TUI for managing systemd units, built with ratatui"
+license = "MIT"
+
+[[bin]]
+name = "rustctl"
+path = "src/main.rs"
+
+[dependencies]
+ratatui = "0.29"
+crossterm = "0.28"
+anyhow = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[profile.release]
+lto = true
+codegen-units = 1
+strip = true
