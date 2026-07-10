@@ -3,7 +3,7 @@ name = "rustctl"
 version = "0.1.0"
 edition = "2021"
 description = "A TUI for managing systemd units, built with ratatui"
-license = "MIT"
+license = "GPL-3.0"
 
 [[bin]]
 name = "rustctl"

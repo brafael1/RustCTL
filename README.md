@@ -7,7 +7,7 @@ Rust com [ratatui](https://crates.io/crates/ratatui) e
 Ele envolve o `systemctl` (list-units, is-enabled, status, start/stop/restart/
 enable/disable/reload) e expõe as informações em uma TUI controlada por teclado.
 
-![Licença: MIT](https://img.shields.io/badge/licen%C3%A7a-MIT-blue.svg)
+![Licença: GPL-3.0](https://img.shields.io/badge/licen%C3%A7a-GPL--3.0-blue.svg)
 
 ## Funcionalidades
 
@@ -107,4 +107,4 @@ contêm espaços.
 
 ## Licença
 
-MIT — veja [LICENSE](LICENSE).
+GPL-3.0 — veja [LICENSE](LICENSE).
